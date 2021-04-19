@@ -6,8 +6,7 @@ import styles from './Chart.module.css';
 
 const Chart = ({ data, country}) =>{
     const [dailyData, setDailyData] = useState([])
-    console.log(data)
-
+    
     useEffect(() => {
         const fetchAPI = async () =>{
             setDailyData(await fetchDailyData());
@@ -41,7 +40,7 @@ data={{
     labels: ['Infected', 'Recovered' , 'Deaths'],
     datasets: [{
         label: 'People',
-        backgroundColor: ['rgb(187, 69, 69)', 'rgb(187, 69, 69)', 'rgb(187, 69, 69)'],
+        backgroundColor: ['rgb(129, 115, 115)', 'rgb(113, 214, 45)', 'rgb(187, 69, 69)'],
         data:[data.confirmed.value, data.recovered.value, data.deaths.value]
     }]
 }}

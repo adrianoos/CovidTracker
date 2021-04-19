@@ -4,6 +4,8 @@
 
 .card {
     margin: 0 2% !important;
+    width: 400px;
+    box-shadow: 5px 5px 5px rgb(88, 88, 88) !important;
 }
 
 .infected {
@@ -17,3 +19,4 @@
 .deaths {
     border-bottom: 10px solid rgb(187, 69, 69);
 }
+
