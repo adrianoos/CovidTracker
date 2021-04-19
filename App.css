@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(49, 49, 49);
-  color: rgb(202, 202, 202);
+  background-color: rgb(163, 163, 163);
+  color: rgb(163, 163, 163);
 }
 
 .container {
@@ -9,3 +9,9 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
+.imgLogo{
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(88, 88, 88);
+}
+
