@@ -1,2 +1,4 @@
-# CovidTracker
-Another React practice App with Charts
+# CovidTracker v 1.0
+Another React practice App with dynamic Charts
+
+
